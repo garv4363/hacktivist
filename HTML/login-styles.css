@@ -1,0 +1,248 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    
+    
+}
+.heading{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+  
+    text-align: center;
+    color: #f9f9ff;
+    padding: 2rem;
+    background-color: var(--blue);
+}
+form{
+    /* border: 2px solid black; */
+  background-color: #f9f9ff;
+  margin: 5rem;
+  padding: 5rem;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 17px rgb(136 147 247 / 10%), 0 6px 50px rgb(136 147 253 / 10%);
+  text-transform: uppercase;
+  
+  
+}
+.formi-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    
+}
+.form-input{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30vw;
+    text-align: left;
+    padding: 1rem;
+    text-transform: uppercase;
+    
+}
+.form-radio{
+    display: flex;
+}
+
+.btn-div{
+    display: flex;
+}
+
+.btn{
+    background-color:var(--blue);
+    color: white;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 2rem;
+    border: 0;
+    border-radius: 2rem;
+    font: 2rem;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    border: 2px solid black;
+}
+.form-radio{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+.form-check{
+    
+    margin-left: 1rem;
+    /* border: 1px solid var(--blue); */
+}
+.form-check-input{
+    cursor: pointer;
+}
+
+
+.checkbox{
+    margin: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
+#checkbox-input{
+    cursor: pointer;
+}
+
+.agree{
+    margin-left: 1rem;
+    border: 1px solid var(--blue);
+}
+:root {
+    --blue: #8490ff;
+    --lightbackground: #f9f9ff;
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  
+  /* --------------navbar-------------------- */
+  header {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+  }
+  .navbar {
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50rem;
+    padding: 1.6rem;
+    width: 100%;
+  }
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-shadow:2px 3px 4px black;
+  }
+  ul {
+     width: 40%;
+    display: flex;
+  
+  }
+  ul li {
+      list-style: none;
+      margin-right: 5rem;
+  }
+  
+  .navbar ul li a {
+      font-weight: bold;
+      font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+  }
+  .navbar ul li a:hover {
+      text-shadow:2px 3px 4px black;
+      font-size: 1.6rem;
+  
+  }
+  /* -----------home top----------------- */
+  
+  .about-top{
+    background-color: var(--blue);
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  
+  /* ----------------main section----------------- */
+  .mainContainer {
+    padding-top: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--lightbackground);
+  }
+  
+  .name {
+    /* background-color: red; */
+    font-size: 1.6rem;
+    width: 53%;
+    font-weight: bold;
+  
+  }
+  .name h1 {
+    margin-top: 1.6rem;
+    font-size: 5rem;
+    color: var(--blue);
+    text-shadow:2px 3px 4px black;
+  }
+  .name p {
+    margin-top: 2.2rem;
+    font-weight: 300;
+    color: rgb(119, 119, 119);
+  }
+  .image {
+    /* background-color: yellow; */
+  }
+  img {
+    width: 25rem;
+  }
+  /* ----------social sites-------------------------- */
+  
+  
+  .social-sites {
+      
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6.5rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  }
+  .social-site-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.2rem;
+    font-weight: bold;
+  }
+  .logoimage {
+    width: 6.5rem;
+  }
+  .social-sites a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .logo1 a {
+    color: #0a66c2;
+  }
+  .logo2 a {
+    color: rgb(151, 18, 135);
+  }
+  .logo3 a {
+    color: rgb(23, 116, 203);
+  }
+  
+  /* ----------footer------------ */
+  
+  footer {
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: #04091e;
+    color: #777777;
+    padding: 3.2rem;
+  }
